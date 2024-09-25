@@ -37,7 +37,7 @@ fun AccountView(){
                     Text(text = "abhinnagrawal@....")
                 }
             }
-            IconButton(onClick = { /*TODO*/ }) {
+            IconButton(onClick = { }) {
                 Icon(imageVector = Icons.Filled.KeyboardArrowRight ,
                     contentDescription = null)
             }

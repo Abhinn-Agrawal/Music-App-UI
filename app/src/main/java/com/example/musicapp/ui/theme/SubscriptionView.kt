@@ -32,7 +32,7 @@ fun SubscriptionView(){
                     Text(text = "Musical")
                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
                         Text(text = "Free Tier")
-                        TextButton(onClick = { /*TODO*/ }) {
+                        TextButton(onClick = {  }) {
                             Row {
                                 Text(text = "See All Plans")
                                 Icon(
