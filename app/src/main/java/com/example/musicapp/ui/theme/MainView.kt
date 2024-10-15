@@ -63,7 +63,6 @@ import kotlinx.coroutines.launch
 fun MainView() {
     val scaffoldState: ScaffoldState = rememberScaffoldState()
     val scope: CoroutineScope = rememberCoroutineScope()
-
     //allow us to find out on which view we currently are
     val controller: NavController = rememberNavController()
     val navBackStackEntry by controller.currentBackStackEntryAsState()
